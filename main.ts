@@ -1,5 +1,5 @@
 let dado = 0
-input.onGesture(Gesture.Shake, function () {
+input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     dado = randint(1, 25)
     if (dado == 1) {
